@@ -1,0 +1,47 @@
+
+.companyLogoContainer{
+   
+    width: 200px;
+    
+
+}
+
+.sectionExtended{
+    
+    width: 100%;
+    display: flex;
+  
+   
+}
+
+.sectionExtendedtWO{
+    white-space: pre-wrap;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  
+    .companyLogoContainer{
+        background-color: rgb(58, 159, 55);
+        width: 100%;
+        
+        
+    
+    }
+    
+    .sectionExtended{
+        background-color: red;
+        width: 100%;
+        display: block;
+        z-index: 1;
+      
+       
+    }
+    
+    .sectionExtendedtWO{
+        white-space: pre-wrap;
+        padding: 20px;
+    }
+ }

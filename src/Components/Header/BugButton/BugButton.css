@@ -1,0 +1,23 @@
+
+.btnBugButton{
+    margin: 10px;
+    padding: 10px;
+}
+.btnBugButton:hover{
+    background-image: url('https://media1.giphy.com/media/ksE4eFvxZM3oyaFEVo/giphy.gif?cid=ecf05e47phmqe99cv62lyvwlx192itrrxpy1474qfoojjgx5&ep=v1_gifs_related&rid=giphy.gif&ct=g');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 2s;
+    color: white;
+    
+   
+  
+    
+}
+
+
+
+
+
+

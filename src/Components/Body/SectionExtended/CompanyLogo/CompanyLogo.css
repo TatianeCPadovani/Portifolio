@@ -1,0 +1,35 @@
+.companyLogoContainer {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+
+ 
+  }
+  
+  .companyLogo {
+    width: 100px;
+   
+    
+  }
+
+
+  @media screen and (max-width: 768px) {
+ 
+    .companyLogoContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     
+      
+       }
+       
+       .companyLogo {
+         width: 70px;
+         margin: 10px;
+        
+         
+       }
+
+}

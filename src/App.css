@@ -1,0 +1,76 @@
+.App{
+   font-family: 'Signika Negative', sans-serif;
+}
+
+.App-header{
+
+   display: flex;
+   align-items: center;
+   background-image: url("../public/images/background02.png"); 
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+
+.containerSocialMedia{
+   
+   width: 50%;
+   text-align: center;
+ 
+   
+}
+
+
+.textPresentation{
+  color: whitesmoke;
+  font-size: 130%;
+  margin: 20px;
+  padding: 20px;
+   
+}
+
+.photoContainer{
+   
+   width: 50%;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+   .App-header{
+      background-color: rgb(132, 132, 232);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   
+   
+   .containerSocialMedia{
+     
+      width: 90%;
+      text-align: center;
+      
+   }
+   
+   
+   .textPresentation{
+     color: whitesmoke;
+     font-size: 100%;
+     margin: 5px;
+     padding: 5px;
+      
+   }
+   
+   .photoContainer{
+      background-color: rgb(217, 118, 217);
+      width: 50%;
+   }
+   
+   
+
+ }
+
+
