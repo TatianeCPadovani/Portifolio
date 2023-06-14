@@ -1,5 +1,78 @@
 .container{
 padding: 20px;
+color: black;
+background-color: white;
+width: 60%;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: justify;
+
+  border-radius: 10px;
 
 }
+
+.highlight{
+    color: black;
+    background-color: white;
+    background-image: linear-gradient(to right, transparent 50%, #f7d0a9 50%);
+    
+    background-size: 200% 100%;
+  background-position: -100% 0;
+  animation: highlightAnimation 2s linear;
+  animation-delay: 5s;
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+
+.highlight2{
+    
+    background-color: white;
+    background-image: linear-gradient(to right, transparent 50%, #b4585d 50%);
+  background-size: 200% 100%;
+  background-position: -100% 0;
+  animation: highlightAnimation 2s linear;
+  animation-delay: 7s;
+  border-radius: 10px;
+  padding: 5px;
+
+
+  
+}
+
+.highlight3{
+    
+    background-color: white;
+      padding: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, transparent 50%, #a1c0ae 50%);
+    background-size: 200% 100%;
+    background-position: -100% 0;
+    animation: highlightAnimation 2s linear;
+    animation-delay: 9s;
+ 
+
+   
+
+  
+}
+
+
+
+
+
+
+
+
+@keyframes highlightAnimation{
+    from {
+       
+        background-position:  0;
+      }
+      to {
+        background-position: -100% 0;
+      }
+    }
+
 

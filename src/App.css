@@ -9,25 +9,30 @@
    background-image: url("../public/images/background02.png"); 
    background-repeat: no-repeat;
    background-size: 100%;
+   animation: iniciate .5s;
 }
+
+@keyframes iniciate{
+   from{
+           opacity: 0;
+           transform: translate3d(0, -10px, 0);
+   }
+   to{
+       opacity: 1;
+       transform: translate3d(0, 0, 0);
+   }
+ }
 
 
 .containerSocialMedia{
    
    width: 50%;
    text-align: center;
- 
+  
    
 }
 
 
-.textPresentation{
-  color: whitesmoke;
-  font-size: 130%;
-  margin: 20px;
-  padding: 20px;
-   
-}
 
 .photoContainer{
    
@@ -36,12 +41,16 @@
 }
 
 
+.highlight{
+   color: red;
+}
 
 
 @media screen and (max-width: 768px) {
 
    .App-header{
-      background-color: rgb(132, 132, 232);
+      background-image: url("../public/images/background02.png"); 
+      background-size: auto;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -65,7 +74,6 @@
    }
    
    .photoContainer{
-      background-color: rgb(217, 118, 217);
       width: 50%;
    }
    

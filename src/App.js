@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import BugButton from './Components/Header/BugButton/BugButton';
 import Photo from './Components/Header/Photo/Photo';
 import SocialMedia from './Components/Header/SocialMedia/SocialMedia';
+import Text from './Components/MovingText/MovingText';
 
 
 
@@ -16,10 +17,15 @@ import SocialMedia from './Components/Header/SocialMedia/SocialMedia';
 
 function App() {
 
-const professionalSumary = `Detail-oriented technical support professional with experience in troubleshooting software issues, seeking for an opportunity in software development. 
+const professionalSumary = `Detail-oriented technical supportprofessional with experience in troubleshooting software issues, seeking for an opportunity in software development. 
 Actively studying front-end development tools like HTML/CSS, JavaScript and React. Passionate about creating intuitive user interfaces, I am dedicated to enhancing my skills for cutting-edge web projects. 
  Experienced in working with multinational companies. Seeking to build a career in a technology company that values personal and professional growth.
 `
+
+
+
+
+
 const educationBackground = `- Alura Technology School (Online courses focused on development)
 - HTML/CSS - Create a complete web page / Responsive Layouts
 - JavaScript -DOM / Create dynamic pages / API consumption 
@@ -54,6 +60,15 @@ Solving tickets, investigating and applying the best solution for the problem, r
 
 
 
+
+
+
+
+
+
+
+
+
   return (
 
 
@@ -73,9 +88,14 @@ Solving tickets, investigating and applying the best solution for the problem, r
                 <BugButton/>
               </section>
 
-              <section className='textPresentation'>
-                My name is Tatiane, I'm a creative front end developer
-              </section>
+
+             
+
+              <Text text="My name is Tatiane, I'm a creative front end developer"/>
+
+
+
+            
 
           </div>
           <div className='photoContainer'>
